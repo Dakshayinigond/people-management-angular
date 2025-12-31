@@ -1,0 +1,30 @@
+<div class="page-bg">
+  <div class="card">
+
+    <h2 class="title">People List</h2>
+
+    <div class="top-bar">
+      <a routerLink="/add" class="add-btn">➕ Add Person</a>
+    </div>
+
+    <table class="people-table">
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Action</th>
+      </tr>
+
+      <tr *ngFor="let p of people">
+        <td>{{ p.name }}</td>
+        <td>{{ p.email }}</td>
+        <td>{{ p.phone }}</td>
+        <td class="action-col">
+          <button class="edit-btn" (click)="editPerson(p.id)">Edit</button>
+          <button class="delete-btn" (click)="deletePerson(p.id)">Delete</button>
+        </td>
+      </tr>
+    </table>
+
+  </div>
+</div>

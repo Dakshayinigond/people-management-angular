@@ -1,0 +1,28 @@
+{
+  "people": [
+    {
+      "id": 1,
+      "name": "Ravi",
+      "email": "ravi@gmail.com",
+      "phone": "9380226874"
+    },
+    {
+      "name": "Suresh",
+      "email": "suresh@gmail.com",
+      "phone": "7896541236",
+      "id": 3
+    },
+    {
+      "name": "Dakshayini Mangala Gond",
+      "email": "dakshayinigond067@gmail.com",
+      "phone": "9380226874",
+      "id": 4
+    },
+    {
+      "name": "kavya",
+      "email": "kavya123@gmail.com",
+      "phone": "9141176207",
+      "id": 5
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+/* Page background */
+.page-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Card container */
+.card {
+  background: #ffffff;
+  width: 90%;
+  max-width: 900px;
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Top bar */
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+}
+
+/* Add button */
+.add-btn {
+  background: #28a745;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.add-btn:hover {
+  background: #218838;
+}
+
+/* Table styling */
+.people-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Table header */
+.people-table th {
+  background: #f4f6f8;
+  color: #333;
+  padding: 12px;
+  text-align: left;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+}
+
+/* Table rows */
+.people-table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Hover effect */
+.people-table tr:hover {
+  background: #f9fafb;
+}
+
+/* Action column */
+.action-col {
+  display: flex;
+  gap: 8px;
+}
+
+/* Edit button */
+.edit-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.edit-btn:hover {
+  background: #0056b3;
+}
+
+/* Delete button */
+.delete-btn {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #b52a37;
+}
