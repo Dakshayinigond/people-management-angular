@@ -1,5 +1,3 @@
-# people-management-angular
-
 # People Management SPA – Angular
 
 ## Introduction
@@ -36,16 +34,6 @@ This project is created as part of an Angular 7/8 technical assignment.
 3. **Edit Person View** – Update existing person details  
 
 ---
-## Screenshots
-
-### People List
-![People List](screenshots/people-list.png)
-
-### Add Person
-![Add Person](screenshots/add-person.png)
-
-### Edit Person
-![Edit Person](screenshots/edit-person.png)
 
 ## REST API Endpoints
 The following REST endpoints are used:
@@ -71,7 +59,7 @@ npm install
 json-server --watch db.json --port 3000
 
 ### Step 3: Run Angular Application
-
+```bash
 
 ng serve
 
@@ -80,7 +68,7 @@ ng serve
 http://localhost:4200
 
 ### Folder Structure (Simplified)
-
+```bash
 
 src/
  ├── app/
