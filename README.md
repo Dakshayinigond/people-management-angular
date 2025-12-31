@@ -61,7 +61,7 @@ npm install
 json-server --watch db.json --port 3000
 
 ### Step 3: Run Angular Application
-```bash
+
 
 ng serve
 
@@ -70,7 +70,7 @@ ng serve
 http://localhost:4200
 
 ### Folder Structure (Simplified)
-```bash
+
 
 src/
  ├── app/
